@@ -8,9 +8,25 @@ int escolha()
 	return resposta;
 }
 
-int menu()
+void menu()
 {
+	int opcao = 0;
+	int voltar = 0;
 	
+	opcao = escolha();
+	
+	switch(opcao)
+	{
+		case 0:
+			exibirSobrePrograma();
+			break;
+		case 1:
+			exibirMenuConsulta();
+			break;
+		case 2:
+			
+		default:
+	}
 }
 
 int main (void)
