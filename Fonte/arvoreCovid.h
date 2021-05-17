@@ -11,7 +11,10 @@
 
 void exibirFim();
 void exibirMenu();
+void arvoreBinaria();
 void pesquisaBinaria();
+void exibirDesejaSair();
+void arvoreBalanceada();
 void exibirMenuConsulta();
 void pesquisaSequencial();
 void exibirSobrePrograma();
