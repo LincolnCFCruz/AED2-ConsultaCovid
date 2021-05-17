@@ -67,6 +67,17 @@ void exibirMenu()
 	printf("\n");
 }
 
+void exibirDesejaSair()
+{
+	printf("\n");
+	printf("  +-------------------------+\n");
+	printf("  | Deseja realmente sair ? |\n");
+	printf("  +-------------------------+\n");
+	printf("  |   0 - NÃO  |   1 - SIM  |\n");
+	printf("  +-------------------------+\n");
+	printf("\n");
+}
+
 void pesquisaBinaria()
 {
 	int meio = 0;
