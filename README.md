@@ -1,7 +1,7 @@
 # Consulta Covid
 
 ## Links úteis
-[GOV Saúde - Covid](https://covid.saude.gov.br/)
+[Painel Coronavírus](https://covid.saude.gov.br/)
 ## Objetivo
 'Consulta de dados' é um programa desenvolvido com objetivo desta atividade prática é exercitar o uso de estrutura de dados para recuperar informações em memória principal. Além de auxiliar na análise da evolução e impacto da doença em nossa sociedade. 
 ## Participantes
@@ -39,15 +39,7 @@ gcc -o Main arvoreCovid.c main.c
 
 ## Contribuições
 ```
-+---------------------------------+---------------------------------------+
-| Pedro Igor Martins dos Reis     | Desenvolveram a versão em Ponteiros   |
-+---------------------------------+ de ponteiros do projeto e a aparência |
-| Rafaela Mesquita Gontijo        | do programa.                          |
-+---------------------------------+---------------------------------------+
-| Lincoln Corrêa Figueiredo Cruz  | Desenvolveram a versão em Arranjos    |
-+---------------------------------+ do projeto e auxiliaram na parte      |
-| Rafael Brandão Nunes            | de prioridade da fila                 |
-+---------------------------------+---------------------------------------+
+TBA
 ```
 ## Exemplo de consulta
 
