@@ -8,9 +8,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include <sys/resource.h>
 
 void exibirFim();
 void exibirMenu();
+void tempo&Memoria();
 void arvoreBinaria();
 void pesquisaBinaria();
 void exibirDesejaSair();

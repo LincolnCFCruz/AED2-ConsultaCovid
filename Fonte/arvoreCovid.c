@@ -1,5 +1,19 @@
 #include arvoreCovid.h
 
+void tempo&Memoria()
+{
+	t = clock() - t;
+	struct rusage r_usage;
+	getrusage (RUSAGE_SELF,&r_usage);
+	printf("\n");
+	printf("  +------------------------+\n");
+	printf("  |   Informações extras   |\n");
+	printf("  +------------------------+---------------------+\n");
+	printf("  |   Consumo de memória   | %ld				 |\n",r_usage.ru_maxrss);
+	printf("  |    Tempo de execução   | %lf                 |\n",((double)t/((CLOCKS_PER_SEC)));
+	printf("  +------------------------+---------------------+\n");
+}
+
 void exibirMenuConsulta()
 {
 	printf("\n");
@@ -42,6 +56,7 @@ void exibirDesenvolvedores()
 	prtinf("  | Lincoln Corrêa Figueiredo Cruz | https://github.com/LincolnCFCruz   |\n");
 	printf("  | Pedro Igor Martins dos Reis    | https://github.com/ORZAYAZ         |\n");
 	printf("  | Rafael Brandão Nunes           | https://github.com/RafaelBrandao13 |\n");
+	printf("  | Rafaela Mesquita Gontijo       | https://github.com/rafamesquita    |\n");
 	printf("  +--------------------------------+------------------------------------+\n");
 	printf("\n");	
 }
